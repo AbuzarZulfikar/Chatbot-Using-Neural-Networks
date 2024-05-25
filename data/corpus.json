@@ -1,0 +1,1141 @@
+{
+    "intents":
+    [
+        {
+          "tag": "international_shipping",
+          "patterns": ["Do you offer international shipping?"],
+          "responses": [
+            "Yes, we offer international shipping to select countries. The availability and shipping costs will be calculated during the checkout process based on your location."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "lost_or_damaged_package",
+          "patterns": ["What should I do if my package is lost or damaged?"],
+          "responses": [
+            "If your package is lost or damaged during transit, please contact our customer support team immediately. We will initiate an investigation and take the necessary steps to resolve the issue."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "change_shipping_address",
+          "patterns": ["Can I change my shipping address after placing an order?"],
+          "responses": [
+            "If you need to change your shipping address, please contact our customer support team as soon as possible. We will do our best to update the address if the order has not been shipped yet."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "gift_wrapping",
+          "patterns": ["Do you offer gift wrapping services?"],
+          "responses": [
+            "Yes, we offer gift wrapping services for an additional fee. During the checkout process, you can select the option to add gift wrapping to your order."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "price_matching_policy",
+          "patterns": ["What is your price matching policy?"],
+          "responses": [
+            "We have a price matching policy where we will match the price of an identical product found on a competitor's website. Please contact our customer support team with the details of the product and the competitor's offer."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "phone_orders",
+          "patterns": ["Can I order by phone?"],
+          "responses": [
+            "Unfortunately, we do not accept orders over the phone. Please place your order through our website for a smooth and secure transaction."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "price_adjustment_policy",
+          "patterns": ["What is your price adjustment policy?"],
+          "responses": [
+            "If a product you purchased goes on sale within 7 days of your purchase, we offer a one-time price adjustment. Please contact our customer support team with your order details to request the adjustment."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "loyalty_program",
+          "patterns": ["Do you have a loyalty program?"],
+          "responses": [
+            "Yes, we have a loyalty program where you can earn points for every purchase. These points can be redeemed for discounts on future orders. Please visit our website to learn more and join the program."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "guest_orders",
+          "patterns": ["Can I order without creating an account?"],
+          "responses": [
+            "Yes, you can place an order as a guest without creating an account. However, creating an account offers benefits such as order tracking and easier future purchases."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "bulk_discounts",
+          "patterns": ["Do you offer bulk or wholesale discounts?"],
+          "responses": [
+            "Yes, we offer bulk or wholesale discounts for certain products. Please contact our customer support team or visit our Wholesale page for more information and to discuss your specific requirements."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "change_or_cancel_item",
+          "patterns": ["Can I change or cancel an item in my order?"],
+          "responses": [
+            "If you need to change or cancel an item in your order, please contact our customer support team as soon as possible. We will assist you with the necessary steps."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "leave_product_review",
+          "patterns": ["How can I leave a product review?"],
+          "responses": [
+            "To leave a product review, navigate to the product page on our website and click on the 'Write a Review' button. You can share your feedback and rating based on your experience with the product."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "multiple_promo_codes",
+          "patterns": ["Can I use multiple promo codes on a single order?"],
+          "responses": [
+            "Usually, only one promo code can be applied per order. During the checkout process, enter the promo code in the designated field to apply the discount to your order."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "wrong_item_received",
+          "patterns": ["What should I do if I receive the wrong item?"],
+          "responses": [
+            "If you receive the wrong item in your order, please contact our customer support team immediately. We will arrange for the correct item to be shipped to you and assist with returning the wrong item."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "expedited_shipping",
+          "patterns": ["Do you offer expedited shipping?"],
+          "responses": [
+            "Yes, we offer expedited shipping options for faster delivery. During the checkout process, you can select the desired expedited shipping method."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "out_of_stock_orders",
+          "patterns": ["Can I order a product that is out of stock?"],
+          "responses": [
+            "If a product is currently out of stock, you will usually see an option to sign up for product notifications. This way, you will be alerted when the product becomes available again."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "email_newsletter",
+          "patterns": ["What is your email newsletter about?"],
+          "responses": [
+            "Our email newsletter provides updates on new product releases, exclusive offers, and helpful tips related to our products. You can subscribe to our newsletter on our website."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "return_for_changed_mind",
+          "patterns": ["Can I return a product if I changed my mind?"],
+          "responses": [
+            "Yes, you can return a product if you changed your mind. Please ensure the product is in its original condition and packaging, and refer to our return policy for instructions."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "live_chat_support",
+          "patterns": ["Do you offer live chat support?"],
+          "responses": [
+            "Yes, we offer live chat support on our website during our business hours. Look for the chat icon in the bottom right corner to initiate a chat with our customer support team."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "order_as_gift",
+          "patterns": ["Can I order a product as a gift?"],
+          "responses": [
+            "Yes, you can order a product as a gift and have it shipped directly to the recipient. During the checkout process, you can enter the recipient's shipping address."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "discount_code_not_working",
+          "patterns": ["What should I do if my discount code is not working?"],
+          "responses": [
+            "If your discount code is not working, please double-check the terms and conditions associated with the code. If the issue persists, contact our customer support team for assistance."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "return_for_final_sale_item",
+          "patterns": ["Can I return a product if it was a final sale item?"],
+          "responses": [
+            "Final sale items are usually non-returnable and non-refundable. Please review the product description or contact our customer support team to confirm the return eligibility for specific items."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "installation_services",
+          "patterns": ["Do you offer installation services for your products?"],
+          "responses": [
+            "Installation services are available for select products. Please check the product description or contact our customer support team for more information and to request installation services."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "discontinued_products",
+          "patterns": ["Can I order a product that is discontinued?"],
+          "responses": [
+            "Discontinued products are no longer available for purchase. We recommend exploring alternative products on our website."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "return_without_receipt",
+          "patterns": ["Can I return a product without a receipt?"],
+          "responses": [
+            "A receipt or proof of purchase is usually required for returns. Please refer to our return policy or contact our customer support team for assistance."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "order_for_delivery_to_different_country",
+          "patterns": ["Can I order a product for delivery to a different country?"],
+          "responses": [
+            "Yes, we offer international shipping to select countries. Please review the available shipping destinations during checkout or contact our customer support for assistance."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "add_gift_message",
+          "patterns": ["Can I add a gift message to my order?"],
+          "responses": [
+            "Yes, you can add a gift message during the checkout process. There is usually a section where you can enter your personalized message."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "product_demonstration",
+          "patterns": ["Can I request a product demonstration before making a purchase?"],
+          "responses": [
+            "We do not currently offer product demonstrations before purchase. However, you can find detailed product descriptions, specifications, and customer reviews on our website."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "order_for_coming_soon_product",
+          "patterns": ["Can I order a product that is listed as 'coming soon'?"],
+          "responses": [
+            "Products listed as 'coming soon' are not available for immediate purchase. Please sign up for notifications to be informed when the product becomes available again."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "request_invoice",
+          "patterns": ["Can I request an invoice for my order?"],
+          "responses": [
+            "Yes, an invoice is usually included with your order. If you require a separate invoice, please contact our customer support team with your order details."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "limited_edition_products",
+          "patterns": ["Can I order a product that is labeled as 'limited edition'?"],
+          "responses": [
+            "'Limited edition' products may have restricted availability. We recommend placing an order as soon as possible to secure your item."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "return_without_original_packaging",
+          "patterns": ["Can I return a product if I no longer have the original packaging?"],
+          "responses": [
+            "While returning a product in its original packaging is preferred, you can still initiate a return without it. Contact our customer support team for guidance in such cases."
+          ],
+          "context_set": ""
+        },
+        {
+          "tag": "reserve_out_of_stock_product",
+          "patterns": ["Can I request a product that is currently out of stock to be reserved for me?"],
+          "context_set": ""
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+               "Hi",
+               "How are you?",
+               "Is anyone there?",
+               "Hello",
+               "Good day",
+               "What's up",
+               "how are ya",
+               "heyy",
+               "whatsup",
+               "??? ??? ??"
+            ],
+            "responses": [
+               "Hello!",
+               "Good to see you again!",
+               "Hi there, how can I help?"
+            ],
+            "context_set": ""
+         },
+         {
+           "tag": "account",
+           "patterns": [
+               "How can I create an account?",
+               "How can I create an account",
+               "create an account",
+               "how create an account",
+               "I forgot my password. Can you help me reset it?",
+               "I want to update my profile information. Can you help me?",
+               "I'm having trouble logging into my account. Can you help?",
+               "How can I delete my account?"
+         
+           ],
+           "responses": [
+              "To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions to complete the registration process.",
+              "To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions to complete the registration process.",
+              "To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions to complete the registration process.",
+              "To create an account, please visit our registration page and follow the instructions. You can find our registration page here: [link to registration page].",
+               "To update your profile information, please log in to your account and click on the 'My Profile' link.",
+               "If you are having trouble logging into your account, please click on the 'Contact Us' link and send us a message with your email address and a brief description of the problem. You can find our contact us page here: [link to contact us page].",
+               "To delete your account, please log in to your account and click on the 'Delete Account' link."
+           ],
+           "context_set": ""
+         },
+          {
+            "tag": "goodbye",
+            "patterns": [
+               "cya",
+               "see you",
+               "bye bye",
+               "See you later",
+               "Goodbye",
+               "I am Leaving",
+               "Bye",
+               "Have a Good day",
+               "talk to you later",
+               "ttyl",
+               "i got to go",
+               "gtg"
+            ],
+            "responses": [
+               "Sad to see you go :(",
+               "Talk to you later",
+               "Goodbye!",
+               "Come back soon"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "creator",
+            "patterns": [
+               "what is the name of your developers",
+               "what is the name of your creators",
+               "what is the name of the developers",
+               "what is the name of the creators",
+               "who created you",
+               "your developers",
+               "your creators",
+               "who are your developers",
+               "developers",
+               "you are made by",
+               "you are made by whom",
+               "who created you",
+               "who create you",
+               "creators",
+               "who made you",
+               "who designed you"
+            ],
+            "responses": [
+               "Auto-Essential Team"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "name",
+            "patterns": [
+               "name",
+               "your name",
+               "do you have a name",
+               "what are you called",
+               "what is your name",
+               "what should I call you",
+               "whats your name?",
+               "what are you",
+               "who are you",
+               "who is this",
+               "what am i chatting to",
+               "who am i taking to",
+               "what are you"
+            ],
+            "responses": [
+               "You can call me Auto-Essential.",
+               "I'm Auto-Essential",
+               "I am a Auto-Essential Chatbot.",
+               "I am your Auto-Essential helper"
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "number",
+            "patterns": [
+               "more info",
+               "contact info",
+               "how to contact ",
+               "contact number",
+               "Team number",
+               "What is your contact no",
+               "Contact number?",
+               "how to call you",
+               "Team phone no?",
+               "how can i contact you",
+               "Can i get your phone number",
+               "how can i call you",
+               "phone number",
+               "phone no",
+               "call",
+               "info"
+            ],
+            "responses": [
+               "You can contact at: 0300 1080023"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "Products",
+            "patterns": [
+               "list of Products",
+               "list of Products offered",
+               "list of Products offered in",
+               "what are the Products offered in your Website?",
+               "Products?",
+               "Products offered",
+               "Products offered in (your Website name)",
+               "Products you offer",
+               "branches?",
+               "what are the products ",
+               "Products available at Website?",
+               "branches available at your Website?",
+               "what are the Products in Website?",
+               "what are branches in Website?",
+               "what are Products in Website?",
+               "branches available in Website?",
+               "can you tell me the Products available in Website?"
+            ],
+            "responses": [
+               "Our Website offers Parts, Wheels & Tires, Exterior, Lighting, Body Parts, Interior, Audio & Electronics, Automotive Tools"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "payment",
+            "patterns": [
+               "information about payment Method",
+               "What payment Method methods do you accept?",
+               "information on payment Method",
+               "tell me the payment Method",
+               "Buying payment Method",
+               "Selling payment Method",
+               "payment Method per Product",
+               "what is the payment Method",
+               "what is payment Method?",
+               "funds",
+               "payment",
+               "payment Method",
+               "what are the payment methods",
+               "about the funds",
+               "about payment",
+               "about payment Method",
+               "tell me something about the funds",
+               "tell me something about payment",
+               "tell me something about payment Method"
+            ],
+            "responses": [
+               "We accept major credit cards, debit cards, and PayPal as payment methods for online orders"
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "track",
+            "patterns": [
+               "How can I track my order",
+               "track my order",
+               "how to track my order",
+               "how to track order"
+            ],
+            "responses": [
+               "You can track your order by logging into your account and navigating to the 'Order History' section. There, you will find the tracking information for your shipment."
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "return",
+            "patterns": [
+               "What is your return policy?",
+               "return policy",
+               "return",
+               "tell me about return policy",
+               "return policy?",
+               "return policy of your Website?",
+               "return policy of Website?",
+               "return policy of your Website",
+               "return policy of Website",
+               "return product",
+               "return product policy",
+               "return product policy of your Website",
+               "return product policy of Website"
+         
+            ],
+            "responses": [
+               "Our return policy allows you to return products within 30 days of purchase for a full refund, provided they are in their original condition and packaging. Please refer to our Returns page for detailed instructions."
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "cancelorder",
+            "patterns": [
+               "Can I cancel my order?",
+               "cancel order",
+               "how can i cancel the order",
+               "cancel my order",
+               "cancel my order?",
+               "cancel order?",
+               "cancel my order of your Website?",
+               "cancel my order of Website?",
+               "cancel my order of your Website",
+               "cancel my order of Website",
+               "what is procedure of cancelling the order"
+            ],
+            "responses": [
+               "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your order details, and we will assist you with the cancellation process."
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "shipping",
+            "patterns": [
+               "How long does shipping take?",
+               "shipping",
+               "shipping time",
+               "shipping time?",
+               "shipping time of your Website?",
+               "shipping time of Website?",
+               "shipping time of your Website",
+               "shipping time of Website",
+               "shipping of my product which i send to user",
+               "shipping of my product which i send to user?"
+            ],
+            "responses": [
+               "Shipping times vary depending on the destination and the shipping method chosen. Standard shipping usually takes 3-5 business days, while express shipping can take 1-2 business days."
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "detailssecure",
+            "patterns": [
+               "Are my personal and payment details secure?",
+               "details secure",
+               "details secure?",
+               "details secure of your Website?",
+               "details secure of Website?",
+               "details secure of your Website",
+               "details secure of Website",
+               "my personal details are secure",
+               "my payment details are secure",
+               "what is the security of your website",
+               "what is the security of your website?"
+            ],
+            "responses": [
+               "Yes, we take the security of your personal and payment details seriously. We use industry-standard encryption and follow strict security protocols to ensure your information is protected."
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "guest",
+            "patterns": [
+               "Can I order without creating an account?",
+               "guest user is allowed or not",
+               "guest user is allowed or not?",
+               "what do you think about guest user?"
+            ],
+            "responses": [
+               "Yes, you can place an order as a guest without creating an account. However, creating an account offers benefits such as order tracking and easier future purchases."
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "technicalsupport",
+            "patterns": [
+               "I'm having trouble navigating the website. Can you help me?",
+               "I can't seem to add an item to my cart. Can you help me?",
+               "I'm having trouble placing an order. Can you help me?",
+               "The product I received is not working properly. Can you help me?",
+               "I'm having trouble downloading a file. Can you help me?"
+            ],
+            "responses": [
+               "To create an account, please visit our registration page and follow the instructions. You can find our registration page here: [link to registration page].",
+               "If you have forgotten your password, please click on the 'Forgot Password' link on our login page and follow the instructions to reset your password. You can find our login page here: [link to login page].",
+               "To update your profile information, please log in to your account and click on the 'My Profile' link.",
+               "If you are having trouble logging into your account, please click on the 'Contact Us' link and send us a message with your email address and a brief description of the problem. You can find our contact us page here: [link to contact us page].",
+               "To delete your account, please log in to your account and click on the 'Delete Account' link."
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "Customerservice",
+            "patterns": [
+               "I have a question about your products.",
+               "I have a complaint about your service.",
+               "I have some feedback about your website.",
+               "Can you put me in touch with a customer service representative?",
+               "Thank you for your help."
+            ],
+            "responses": [
+               "Please feel free to contact us with any questions, complaints, or feedback you may have. You can contact us by email, phone, or live chat.",
+               "We are committed to providing our customers with excellent customer service, and we appreciate your feedback."
+            ],
+            "context_set": ""
+         },
+         {
+           "tag": "random",
+           "patterns": [
+              "I love you",
+              "Will you marry me",
+              "Do you love me"
+         
+           ],
+           "responses": [
+              "I am not program for this, please ask appropriate query"
+           ],
+           "context_set": ""
+         },
+         
+          {
+            "tag": "swear",
+            "patterns": [
+               "fuck",
+               "bitch",
+               "shut up",
+               "hell",
+               "stupid",
+               "idiot",
+               "dumb ass",
+               "asshole",
+               "fucker"
+            ],
+            "responses": [
+               "please use appropriate language",
+               "Maintaining decency would be appreciated"
+            ],
+            "context_set": ""
+           },
+          {
+            "tag": "salutaion",
+            "patterns": [
+               "okk",
+               "okie",
+               "nice work",
+               "well done",
+               "good job",
+               "thanks for the help",
+               "Thank You",
+               "its ok",
+               "Thanks",
+               "Good work",
+               "k",
+               "ok",
+               "okay"
+            ],
+            "responses": [
+               "I am glad I helped you",
+               "welcome, anything else i can assist you with?"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "task",
+            "patterns": [
+               "what can you do",
+               "what are the thing you can do",
+               "things you can do",
+               "what can u do for me",
+               "how u can help me",
+               "why i should use you"
+            ],
+            "responses": [
+               "I can answer to low-intermediate questions regarding Auto-Essential.",
+               "You can ask me questions regarding Auto-Essential., and i will try to answer them"
+            ],
+            "context_set": ""
+         },
+        {
+           "tag": "product_information",
+           "patterns": [
+              "What are the top-rated auto parts on 'Auto Essentials'?",
+              "Can you recommend popular products for specific car models?",
+              "Are there any featured or trending items right now?"
+           ],
+           "responses": [
+              "Explore top-rated auto parts and recommended products for specific car models on 'Auto Essentials.'"
+           ],
+           "context_set": ""
+        },
+        {
+           "tag": "order_status_and_returns",
+           "patterns": [
+              "How can I check the status of my recent order?",
+              "What is the return policy if I'm not satisfied with my purchase?",
+              "Can I cancel an order after it's been placed?"
+           ],
+           "responses": [
+              "Check order status, review the return policy, and cancel orders if needed through your account."
+           ],
+           "context_set": ""
+        },
+        {
+           "tag": "compatibility_and_fitment",
+           "patterns": [
+              "How can I ensure that a specific part is compatible with my car?",
+              "Are there guides or tools to help me find parts that fit my vehicle?",
+              "Can I get assistance if I'm not sure which product I need?"
+           ],
+           "responses": [
+              "Ensure compatibility using our guides and get assistance finding the right parts for your vehicle."
+           ],
+           "context_set": ""
+        },
+        {
+           "tag": "payment_options",
+           "patterns": [
+              "What payment methods are accepted on 'Auto Essentials'?",
+              "Is there an option for installment payments?",
+              "Are my payment details secure when making a purchase?"
+           ],
+           "responses": [
+              "Securely pay with various methods; installment payments and secure details are supported."
+           ],
+           "context_set": ""
+        },
+        {
+           "tag": "deals_and_discounts",
+           "patterns": [
+              "Are there any special discounts for first-time customers?",
+              "How often does 'Auto Essentials' have sales or promotions?",
+              "Can I sign up for newsletters to receive exclusive offers?"
+           ],
+           "responses": [
+              "Enjoy special discounts, sales, and exclusive offers by signing up for newsletters."
+           ],
+           "context_set": ""
+        },
+        {
+           "tag": "customer_reviews",
+           "patterns": [
+              "How reliable are the customer reviews on the platform?",
+              "Can I see photos or videos of products shared by other customers?",
+              "Are there any testimonials from satisfied customers?"
+           ],
+           "responses": [
+              "Trust reliable customer reviews; view photos and testimonials for product insights."
+           ],
+           "context_set": ""
+        },
+        {
+           "tag": "account_management",
+           "patterns": [
+              "How can I change my password or update my account information?",
+              "Is there a way to save my favorite products or create a wishlist?",
+              "Can I subscribe to receive updates about new arrivals?"
+           ],
+           "responses": [
+              "Easily update account details, save favorites, and subscribe for updates on new arrivals."
+           ],
+           "context_set": ""
+        },
+        {
+           "tag": "shipping_times_and_costs",
+           "patterns": [
+              "What is the typical delivery time for orders?",
+              "How much does shipping cost, and are there free shipping options?",
+              "Do you offer international shipping?"
+           ],
+           "responses": [
+              "Expect timely deliveries; check shipping costs, free options, and international shipping availability."
+           ],
+           "context_set": ""
+        },
+        {
+           "tag": "user_friendly_features",
+           "patterns": [
+              "Is the website/mobile app easy to navigate for someone not tech-savvy?",
+              "Can I chat with customer support if I have questions while shopping?",
+              "Are there tutorial videos or guides for using the platform?"
+           ],
+           "responses": [
+              "Navigate our user-friendly platform, chat with support, and find tutorials for a seamless experience."
+           ],
+           "context_set": ""
+        },
+        {
+           "tag": "community_and_social_interaction",
+           "patterns": [
+              "Is there a community forum or space for users to share tips?",
+              "Can I connect with other car enthusiasts on the platform?",
+              "How does 'Auto Essentials' engage with its user community?"
+           ],
+           "responses": [
+              "Engage with our community forum, connect with car enthusiasts, and stay updated on social platforms."
+           ],
+           "context_set": ""
+        },
+        {
+            "tag": "tools",
+            "patterns": [
+               "which tools are offered by your website",
+               "inspection tools",
+               "Which AI Tools you offered",
+               "Which AI Tools you offered in your website",
+               "tyre inspections"
+            ],
+            "responses": [
+               "Here We use AI (Artifical Intelligence) to Enhance the Tools Power."
+            ],
+            "context_set": ""
+         },
+            {
+               "tag": "recommendation_system",
+               "patterns": [
+                  "How does the recommendation system work?",
+                  "Tell me about your recommendation algorithm.",
+                  "What factors does the system consider when making suggestions?"
+               ],
+               "responses": [
+                  "Our recommendation system analyzes details such as your car's make, model, year of manufacture, and mileage. It then suggests high-quality auto parts based on these specifics and user reviews."
+               ],
+               "context_set": ""
+            },
+            {
+               "tag": "recommendation_system",
+               "patterns": [
+                  "Can I trust the recommendations for my car's parts?",
+                  "How reliable are the suggested products?",
+                  "Are the recommendations based on real user experiences?"
+               ],
+               "responses": [
+                  "Absolutely! Our recommendation system relies on accurate data and user feedback. We strive to provide trustworthy suggestions to enhance your vehicle's performance."
+               ],
+               "context_set": ""
+            },
+            {
+               "tag": "recommendation_system",
+               "patterns": [
+                  "What information does the system use to suggest products for my car?",
+                  "Are specific technical details the primary basis for recommendations?",
+                  "How does the system account for variations between car models?"
+               ],
+               "responses": [
+                  "We consider crucial details about your car, including make, model, year, and mileage. This information helps us tailor recommendations to meet your vehicle's specific needs."
+               ],
+               "context_set": ""
+            },
+            {
+               "tag": "recommendation_system",
+               "patterns": [
+                  "Is the recommendation system based on user reviews or specific technical details of my vehicle?",
+                  "How do user reviews influence product recommendations?",
+                  "Can I rely on the user feedback integrated into the recommendation system?"
+               ],
+               "responses": [
+                  "It combines both. We use technical details for precision, and user reviews to ensure that the recommended parts have a proven track record of performance."
+               ],
+               "context_set": ""
+            },
+            {
+               "tag": "recommendation_system",
+               "patterns": [
+                  "Can I customize or filter the recommendations based on my preferences?",
+                  "Are there options to personalize the recommendation settings?",
+                  "How flexible is the system in adapting to user preferences?"
+               ],
+               "responses": [
+                  "Yes, you can! Our system allows you to customize preferences, ensuring that the recommendations align with your specific requirements and preferences."
+               ],
+               "context_set": ""
+            },
+            {
+               "tag": "recommendation_system",
+               "patterns": [
+                  "Do I need to input a lot of details about my car for accurate recommendations?",
+                  "How much information is required for the system to work effectively?",
+                  "Can I get accurate suggestions with minimal input about my vehicle?"
+               ],
+               "responses": [
+                  "Not at all! We only need basic details like make, model, year, and mileage to provide accurate and tailored recommendations for your vehicle."
+               ],
+               "context_set": ""
+            },
+            {
+               "tag": "recommendation_system",
+               "patterns": [
+                  "How often are the recommendations updated?",
+                  "Is the system regularly updated with new products?",
+                  "Can I expect real-time or near-real-time recommendations?"
+               ],
+               "responses": [
+                  "Our recommendations are regularly updated to reflect the latest products and ensure that you always receive the most relevant suggestions for your car."
+               ],
+               "context_set": ""
+            },
+            {
+               "tag": "recommendation_system",
+               "patterns": [
+                  "If I have multiple cars, can the system provide suggestions for all of them?",
+                  "How does the system handle recommendations for a fleet of vehicles?",
+                  "Can I manage recommendations for different cars within a single account?"
+               ],
+               "responses": [
+                  "Certainly! You can input details for multiple cars, and our system will generate personalized recommendations for each one."
+               ],
+               "context_set": ""
+            },
+               {
+                  "tag": "recommendation_system",
+                  "patterns": [
+                     "How does the recommendation system know what parts my car needs?",
+                     "Can your system accurately determine the parts my car requires?",
+                     "What information does your system utilize to suggest auto parts?"
+                  ],
+                  "responses": [
+                     "Our system uses basic car information—make, model, year, and mileage—for tailored recommendations, combining technical details and user reviews."
+                  ],
+                  "context_set": ""
+               },
+               {
+                  "tag": "recommendation_system",
+                  "patterns": [
+                     "Can I trust the suggestions for my car?",
+                     "How reliable are the recommendations provided by your system?",
+                     "Is it safe to rely on the suggested auto parts for my vehicle?"
+                  ],
+                  "responses": [
+                     "You can trust the suggestions for your car. Our system combines accurate data and user feedback to provide trustworthy recommendations, enhancing your vehicle's performance."
+                  ],
+                  "context_set": ""
+               },
+               {
+                  "tag": "recommendation_system",
+                  "patterns": [
+                     "What information does your system use for recommendations?",
+                     "How does your system gather data to make auto part recommendations?",
+                     "Are the recommendations based on specific technical details or user preferences?"
+                  ],
+                  "responses": [
+                     "Our system utilizes basic car information, including make, model, year, and mileage, to tailor recommendations. It combines technical details and user reviews for precision."
+                  ],
+                  "context_set": ""
+               },
+               {
+                  "tag": "recommendation_system",
+                  "patterns": [
+                     "Does your system consider user reviews or just technical details?",
+                     "How does user feedback impact the recommendations from your system?",
+                     "Is the recommendation system influenced by both user reviews and technical specifications?"
+                  ],
+                  "responses": [
+                     "Our recommendation system combines both user reviews and technical details. This ensures that the suggested auto parts have a proven track record of performance."
+                  ],
+                  "context_set": ""
+               },
+               {
+                  "tag": "recommendation_system",
+                  "patterns": [
+                     "Can I customize or filter recommendations based on my preferences?",
+                     "Is there an option to personalize the recommendations according to my preferences?",
+                     "How flexible is the system in adapting to user preferences for auto part suggestions?"
+                  ],
+                  "responses": [
+                     "Yes, you can customize preferences to align recommendations with your specific requirements and preferences. Our system provides flexibility for personalized suggestions."
+                  ],
+                  "context_set": ""
+               },
+               {
+                  "tag": "recommendation_system",
+                  "patterns": [
+                     "Do I need to provide a lot of car details for good recommendations?",
+                     "How much car information is necessary for accurate recommendations?",
+                     "Can I receive good auto part recommendations with minimal input about my vehicle?"
+                  ],
+                  "responses": [
+                     "Not at all! We only require basic details like make, model, year, and mileage to provide accurate and tailored recommendations for your vehicle."
+                  ],
+                  "context_set": ""
+               },
+               {
+                  "tag": "recommendation_system",
+                  "patterns": [
+                     "How often are the recommendations updated?",
+                     "Is the system regularly updated with new auto parts?",
+                     "Can I expect real-time or near-real-time updates for auto part recommendations?"
+                  ],
+                  "responses": [
+                     "Our recommendations are regularly updated to reflect the latest auto parts and ensure that you always receive the most relevant suggestions for all your cars."
+                  ],
+                  "context_set": ""
+               },
+               {
+                  "tag": "recommendation_system",
+                  "patterns": [
+                     "Can it suggest parts for all my cars?",
+                     "How does the system handle recommendations for multiple cars?",
+                     "Can I manage recommendations for different cars within a single account?"
+                  ],
+                  "responses": [
+                     "Certainly! You can input details for multiple cars, and our system will generate personalized recommendations for each one."
+                  ],
+                  "context_set": ""
+               },
+                  {
+                     "tag": "vehicle_inspection_tool",
+                     "patterns": [
+                        "How does your tool check my vehicle's condition from photos?",
+                        "Can you explain the process of assessing my vehicle's condition using the tool?",
+                        "What technology does the tool use to evaluate my vehicle based on photos?"
+                     ],
+                     "responses": [
+                        "Our inspection tool utilizes advanced technology for photo-based analysis of specific aspects like tire wear and damage."
+                     ],
+                     "context_set": ""
+                  },
+                  {
+                     "tag": "vehicle_inspection_tool",
+                     "patterns": [
+                        "Is it easy to use the tool if I'm not tech-savvy?",
+                        "How user-friendly is the tool for individuals with limited tech skills?",
+                        "Can someone not familiar with technology easily use the vehicle inspection tool?"
+                     ],
+                     "responses": [
+                        "It's user-friendly—just follow simple steps on your phone."
+                     ],
+                     "context_set": ""
+                  },
+                  {
+                     "tag": "vehicle_inspection_tool",
+                     "patterns": [
+                        "What information does the tool provide about my vehicle from the photos?",
+                        "What specific details or insights does the tool extract from the vehicle photos?",
+                        "Can I expect comprehensive information about my vehicle's condition from the tool?"
+                     ],
+                     "responses": [
+                        "The tool provides quick and accurate results, concentrating on its primary focus."
+                     ],
+                     "context_set": ""
+                  },
+                  {
+                     "tag": "vehicle_inspection_tool",
+                     "patterns": [
+                        "Is the tool accurate in finding vehicle problems?",
+                        "How reliable is the tool in identifying issues with my vehicle?",
+                        "Can I trust the tool's assessment of my vehicle's condition?"
+                     ],
+                     "responses": [
+                        "The tool is accurate in finding specific issues within its primary focus."
+                     ],
+                     "context_set": ""
+                  },
+                  {
+                     "tag": "vehicle_inspection_tool",
+                     "patterns": [
+                        "Can it find issues beyond the specific tool focus?",
+                        "Does the tool have the capability to identify broader vehicle issues?",
+                        "Will the tool highlight problems that fall outside its primary focus?"
+                     ],
+                     "responses": [
+                        "The tool concentrates on its primary focus, providing accurate results within that scope."
+                     ],
+                     "context_set": ""
+                  },
+                  {
+                     "tag": "vehicle_inspection_tool",
+                     "patterns": [
+                        "Do I need special equipment to use the tool, or just my phone?",
+                        "What equipment is required to use the vehicle inspection tool?",
+                        "Can I use the tool with just my smartphone, or are additional tools necessary?"
+                     ],
+                     "responses": [
+                        "No special equipment is needed. You can use the tool with just your smartphone."
+                     ],
+                     "context_set": ""
+                  },
+                  {
+                     "tag": "vehicle_inspection_tool",
+                     "patterns": [
+                        "How long does it take to get results from the tool?",
+                        "Is the tool's analysis a quick process, or does it take a significant amount of time?",
+                        "What is the typical timeframe for receiving results from the vehicle inspection tool?"
+                     ],
+                     "responses": [
+                        "The tool provides quick results, allowing you to promptly assess your vehicle's condition."
+                     ],
+                     "context_set": ""
+                  },
+                  {
+                     "tag": "vehicle_inspection_tool",
+                     "patterns": [
+                        "What should I do if the tool identifies a problem?",
+                        "If the tool flags an issue with my vehicle, what steps should I take?",
+                        "How should I proceed if the inspection tool identifies a problem with my car?"
+                     ],
+                     "responses": [
+                        "If an issue is identified, you can look for new tires for your ride to ensure safety."
+                     ],
+                     "context_set": ""
+                  },
+                     {
+                        "tag": "website_products",
+                        "patterns": [
+                           "What products do you offer on your website?",
+                           "Can you tell me what items are available for purchase on your site?",
+                           "Which auto parts can I find on your website?",
+                           "What kind of products are listed in your online store?",
+                           "Could you give me an overview of the items you have in your inventory?",
+                           "Are there specific categories of products listed on your website?",
+                           "What is the range of products available for car owners on your platform?",
+                           "Do you have a variety of auto parts from different brands on your website?"
+                        ],
+                        "responses": [
+                           "Our website offers a comprehensive range of high-quality auto parts, including engine lubricants, oil filters, and tires sourced from industry-leading brands. We aim to provide a curated selection to meet the needs of discerning car owners. The platform covers various categories to ensure a diverse and reliable inventory for our customers."
+                        ],
+                        "context_set": ""
+                     },
+                     
+                        {
+                           "tag": "become_seller",
+                           "patterns": [
+                              "How can I become a seller on your platform?",
+                              "Is there a process for individuals or businesses to join as sellers on your site?",
+                              "What steps do I need to take to start selling my auto parts on your website?",
+                              "Could you guide me through the process of becoming a seller on your platform?",
+                              "Do you have a seller program, and how can I sign up for it?",
+                              "Is there a registration or application process for sellers?",
+                              "Can individuals or businesses apply to sell their products through your platform?",
+                              "What are the requirements for becoming a seller on your website?"
+                           ],
+                           "responses": [
+                              "To become a seller on our platform, you can start by navigating to the sign up as 'Seller' option on our website. There, you will find information on the registration process, requirements, and steps to join our seller program. Feel free to follow the provided guidelines to apply and start listing your auto parts on our platform. We welcome both individual sellers and businesses to become part of our curated marketplace."
+                           ],
+                           "context_set": ""
+                        }
+
+                     
+                  
+               
+            
+         
+     
+    ]
+}
